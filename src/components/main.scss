@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  overflow: hidden;
+}
+
+ul {
+  list-style: none;
+}
+
+.button {
+  border:none;
+  &-red{
+    background-color: #ec1828;
+    color:white;
+  }
+  &-small {
+    padding: 5px 15px;
+  }
+  &-large {
+    padding: 10px 20px;
+    display: block;
+    margin: auto;
+  }
+  @media (min-width:710px) {
+    &-large {
+      font-size: 26px;
+      padding: 15px 30px;
+    }
+  }
+}
