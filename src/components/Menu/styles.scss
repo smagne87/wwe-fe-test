@@ -1,8 +1,11 @@
 .menu-container {
   >button {
     margin-left: 20px;
-    background-color: white;
+    background-color: #ec1828;
     border: none;
+    border-radius: 5px;
+    padding: 3px 5px 0px;
+    cursor: pointer;
   }
   >ul {
     display: none;

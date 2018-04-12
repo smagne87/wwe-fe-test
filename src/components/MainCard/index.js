@@ -1,6 +1,7 @@
 import React from 'react';
 import summerSlam from '../../assets/summer-slam-logo.png';
 import background from '../../assets/background-img.png';
+import arrowDown from '../../assets/chevron-down.svg';
 import './styles.scss';
 
 const MainCard = () => {
@@ -29,6 +30,9 @@ const MainCard = () => {
             <span>7e/4p</span>
           </li>
         </ul>
+      </div>
+      <div className="arrow-section">
+        <img src={arrowDown} alt="arrow down" />
       </div>
     </div>
   );

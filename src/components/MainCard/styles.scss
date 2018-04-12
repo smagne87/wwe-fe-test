@@ -1,5 +1,5 @@
 .main-card-content {
-  padding: 5px;
+  padding: 10% 5px;
   color: white;
   text-align: center;
   position: relative;
@@ -99,6 +99,10 @@
           }
         }
       }
+    }
+    >.arrow-section {
+      margin-left: 12px;
+      padding-top: 10%;
     }
   }
 }
