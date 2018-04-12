@@ -12,6 +12,8 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({ // Enables the dynamic creation of dist/index.html
       title: 'WWE test by SMAGNE',
+      public_url: 'public',
+      template: 'public/index.html',
     }),
     new webpack.DefinePlugin({
       'process.env': {

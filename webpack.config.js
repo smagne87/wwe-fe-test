@@ -11,6 +11,8 @@ const dist = {
     new CleanWebpackPlugin(['dist']), // Deletes old files in 'dist' folder
     new HtmlWebpackPlugin({ // Enables the dynamic creation of dist/index.html
       title: 'WWE test by SMAGNE',
+      public_url: 'public',
+      template: 'public/index.html',
     }),
     new webpack.NamedModulesPlugin(),
   ],
